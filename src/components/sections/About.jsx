@@ -57,7 +57,7 @@ export default function About() {
                         </span>
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 font-display leading-tight mb-6">
                             We Are a Creative &{' '}
-                            <span className="text-gradient">Tech-Driven</span> Web Agency
+                            <span className="text-purple-500">Tech-Driven</span> Web Agency
                         </h2>
                         <p className="text-lg text-neutral-600 mb-8 leading-relaxed">
                             At Oditha Labs, we blend creativity with technical expertise to deliver exceptional digital experiences. Our team specializes in React, Next.js, and WordPress development, ensuring your website is not just beautiful but also fast, scalable, and optimized for success.
@@ -96,7 +96,7 @@ export default function About() {
                     >
                         <div className="relative">
                             {/* Main Card */}
-                            <div className="bg-gradient-to-br from-primary-500 to-secondary-500 rounded-3xl p-8 text-white">
+                            <div className="bg-purple-500 rounded-3xl p-8 text-white">
                                 <div className="grid grid-cols-2 gap-6">
                                     <div className="text-center p-6 bg-white/10 rounded-2xl backdrop-blur-sm">
                                         <div className="text-4xl font-bold font-display mb-2">50+</div>
