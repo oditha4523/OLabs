@@ -5,15 +5,7 @@ export default function CTA() {
     return (
         <section id="contact" className="section-padding relative overflow-hidden">
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-cta" />
-
-            {/* Decorative Elements */}
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute top-10 left-10 w-64 h-64 bg-white/5 rounded-full blur-3xl" />
-                <div className="absolute bottom-10 right-10 w-96 h-96 bg-white/5 rounded-full blur-3xl" />
-                <div className="absolute top-1/2 left-1/4 w-32 h-32 border-2 border-white/10 rounded-2xl rotate-12" />
-                <div className="absolute bottom-1/4 right-1/4 w-24 h-24 border-2 border-white/10 rounded-full" />
-            </div>
+            <div className="absolute inset-0 bg-purple-500" />
 
             <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <motion.div
@@ -40,7 +32,7 @@ export default function CTA() {
                         <Button
                             href="#work"
                             variant="secondary"
-                            className="border-white text-white hover:bg-white hover:text-primary-600"
+                            className="border-white text-white hover:bg-green-500 hover:text-purple-100"
                             size="lg"
                         >
                             View Our Work

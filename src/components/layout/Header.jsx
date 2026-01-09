@@ -35,11 +35,11 @@ export default function Header() {
                 <nav className="flex items-center justify-between">
                     {/* Logo */}
                     <a href="#home" className="flex items-center gap-2">
-                        <div className="w-10 h-10 bg-gradient-to-br from-primary-600 to-secondary-500 rounded-xl flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">O</span>
+                        <div className="w-10 h-10 bg-purple-500 rounded-xl flex items-center justify-center">
+                            <span className="text-white font-bold text-lg">OL</span>
                         </div>
                         <span className="text-xl font-bold font-display text-neutral-900">
-                            Oditha <span className="text-primary-600">Labs</span>
+                            O<span className="text-purple-500">Labs</span>
                         </span>
                     </a>
 
