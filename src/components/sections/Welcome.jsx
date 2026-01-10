@@ -2,13 +2,15 @@ import { motion } from 'framer-motion';
 import Card from '../ui/Card';
 import Button from '../ui/Button';
 import SectionTitle from '../ui/SectionTitle';
-
+import targetIcon from '../../assets/Target.png';
+import computerIcon from '../../assets/Computer.png';
+import mailIcon from '../../assets/Mail.png';
 const features = [
     {
         id: 1,
         title: 'Who We Are & What We Do',
         description: 'We are a passionate team of developers and designers dedicated to transforming your vision into powerful digital solutions that drive results.',
-        icon: '🎯',
+        icon: targetIcon,
         cta: 'Learn More',
         href: '#about',
     },
@@ -16,7 +18,7 @@ const features = [
         id: 2,
         title: 'We Design & Develop Your Projects',
         description: 'From concept to launch, we craft custom websites and applications with cutting-edge technologies and pixel-perfect designs.',
-        icon: '💻',
+        icon: computerIcon,
         cta: 'Our Services',
         href: '#services',
     },
@@ -24,7 +26,7 @@ const features = [
         id: 3,
         title: 'Drop Us Your Message',
         description: 'Have a project in mind? We\'d love to hear from you. Reach out and let\'s discuss how we can bring your ideas to life.',
-        icon: '✉️',
+        icon: mailIcon,
         cta: 'Contact Us',
         href: '#contact',
     },
@@ -64,7 +66,9 @@ export default function Welcome() {
                     {features.map((feature) => (
                         <motion.div key={feature.id} variants={itemVariants}>
                             <Card className="p-8 h-full flex flex-col">
-                                <div className="text-5xl mb-6">{feature.icon}</div>
+                                <div className="mb-6">
+                                    <img src={feature.icon} alt={feature.title} className="w-12 h-12" />
+                                </div>
                                 <h3 className="text-xl font-bold text-neutral-900 mb-4 font-display">
                                     {feature.title}
                                 </h3>
